@@ -5,7 +5,7 @@ We all have experienced a time when we have to look up for a new house to buy. B
 
 
 
-## **✨Importing Libraries and Dataset 
+## ✨Importing Libraries and Dataset 
 
 ## here we are using 
 
@@ -13,7 +13,7 @@ We all have experienced a time when we have to look up for a new house to buy. B
 - **Matplotlib** – To visualize the data features i.e. barplot
 - **Seaborn** – To see the correlation between features using heatmap
 
- ## **✨ Key Features of House Price Prediction Project
+ ## ✨ Key Features of House Price Prediction Project
 ## Data Preprocessing:
 
 - Handle missing values by filling or dropping them.
