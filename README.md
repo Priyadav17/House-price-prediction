@@ -1,10 +1,11 @@
 # House-price-prediction  
+
 We all have experienced a time when we have to look up for a new house to buy. But then the journey begins with a lot of frauds, negotiating deals, researching the local areas and so on.So to deal with this kind of issues Today we will be preparing a MACHINE LEARNING Based model, trained on the House Price Prediction Dataset. 
 
-You can download the dataset from https://media.geeksforgeeks.org/wp-content/uploads/20240905183434/HousePricePrediction.xlsxlink.
 
 
-## ✨Importing Libraries and Dataset 
+
+## **✨Importing Libraries and Dataset 
 
 ## here we are using 
 
@@ -12,20 +13,42 @@ You can download the dataset from https://media.geeksforgeeks.org/wp-content/upl
 - **Matplotlib** – To visualize the data features i.e. barplot
 - **Seaborn** – To see the correlation between features using heatmap
 
-  ## Project Overviews
-- **Data Preparation**: Load dataset, handle missing values, encode categorical features, and normalize numerical data.
+ ## **✨ Key Features of House Price Prediction Project
+## Data Preprocessing:
 
-- **Model Architecture**: Use multiple regression models (SVR, Random Forest, Linear Regression, CatBoost).
+- Handle missing values by filling or dropping them.
 
-- **Training**: Split data into training (80%) and validation (20%), fit models on training data.
+- Encode categorical features using One-Hot Encoding.
 
-- **Testing**: Predict on validation set, evaluate with metrics like MAPE(Mean absolute Percentage error) .
+- Normalize numerical data for better model performance.
 
-- **Model Saving**: Model is saved within the Google Colab .ipynb notebook for future reference..
+## Exploratory Data Analysis (EDA):
 
-- **Model Loading**: Rerun the notebook to reload and use the trained model..
+- Visualize correlations between numerical features using a heatmap.
 
-- **Result**: Compare models based on accuracy metrics and select the best one for deployment. 🚀
+- Analyze the distribution of categorical features with bar plots.
+
+## Model Training:
+
+- Train multiple regression models (SVR, Random Forest, Linear Regression, CatBoost).
+
+- Split data into training (80%) and validation (20%) sets.
+
+- Evaluate models using MAPE and R² score.
+
+## Model Saving & Loading:
+
+- Save the trained model within the Google Colab .ipynb notebook.
+
+- Reload the model for future predictions by rerunning the notebook.
+
+## Prediction & Evaluation:
+
+- Predict house prices for single and multiple inputs.
+
+- Display predicted prices for given input features.
+
+- Compare different models to select the best-performing one.
 
   ## **🚀 Getting Started**
  ## Run the Script:
@@ -36,6 +59,33 @@ After training, the model evaluation metrics such as Mean Absolute Percentage Er
 
 ## Load Model for Prediction:
 Rerun the notebook to reload the trained model and make predictions on new house price data, displaying the predicted prices based on input features. 🚀
+
+
+## Results of House Price Prediction
+## Model Performance Evaluation:
+
+- Mean Absolute Percentage Error (MAPE): Measures the prediction error percentage for each model.
+
+## Model Comparison:
+
+- **SVR**: Provides smooth predictions but may struggle with large variations in prices.
+
+- **Random Forest**: Handles non-linearity well and performs robustly on diverse datasets.
+
+- **Linear Regression**: Works well for linear relationships but may underperform for complex price trends.
+
+## Predictions on New Data:
+
+- The trained model is tested on unseen data, and predicted house prices are displayed alongside actual values for validation.
+
+## Visualization of Results:
+
+- Loss & accuracy plots illustrate model performance trends.
+
+- Scatter plots & histograms help analyze prediction distribution.
+
+
+
 
 
 
